@@ -7,16 +7,50 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={true}
+  title="Designed to sell, hire, raise"
+  subtitle="Uncommon builds your site, deck, ads and more — so you can focus on hitting product-market fit."
+  customers={[
+    {
+      name: 'Maya Patel',
+      position: 'Founder, Early Stage AI Startup',
+      imageSrc: '/generated/image-a-confident-female-founder-in-a-modern-o.webp'
+    },
+    {
+      name: 'Alex Kim',
+      position: 'Product Manager, SaaS Platform',
+      imageSrc: '/generated/image-a-male-product-manager-in-a-creative-wor.webp'
+    },
+    {
+      name: 'Sophie Lemaire',
+      position: 'Engineering Lead, Fintech',
+      imageSrc: '/generated/image-a-smiling-female-engineering-lead-at-her.webp'
+    },
+    {
+      name: 'Daniel Wu',
+      position: 'Designer, Marketplace Startup',
+      imageSrc: '/generated/image-a-male-designer-in-a-bright-coworking-sp.webp'
+    },
+    {
+      name: 'Priya Shah',
+      position: 'Marketer, Consumer App',
+      imageSrc: '/generated/image-a-female-marketer-in-an-open-workspace-p.webp'
+    }
+  ]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		"https://logo.clearbit.com/figma.com",
+		"https://logo.clearbit.com/pitch.com",
+		"https://logo.clearbit.com/linear.app",
+		"https://logo.clearbit.com/zapier.com"
+	]}
+/>
 
 <Summary
 	generating
