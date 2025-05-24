@@ -91,24 +91,7 @@ It should ALWAYS have between 3 and 5 customers!
 			</p>
 		</div>
 
-		{#if callsToAction.length > 0}
-			<div class="flex gap-4" data-enter>
-				{#each callsToAction as cta, index}
-					<Button
-						href={cta.href}
-						size="lg"
-						variant={index % 2 === 0 ? "primary" : "secondary"}
-						class="max-lg:hidden">{cta.label}</Button
-					>
-					<Button
-						href={cta.href}
-						size="md"
-						variant={index % 2 === 0 ? "primary" : "secondary"}
-						class="lg:hidden">{cta.label}</Button
-					>
-				{/each}
-			</div>
-		{/if}
+		<!-- CTA buttons removed per request for more whitespace -->
 	</header>
 
 	<div

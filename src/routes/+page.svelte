@@ -12,9 +12,30 @@
 
 <CustomerCardHero
   centered={true}
-  title="Designed to sell, hire, raise"
-  subtitle="Uncommon builds your site, deck, ads and more — so you can focus on hitting product-market fit."
+  title="Designed to sell, hire, raise."
+  subtitle="The company building tool for founders."
   customers={[
+    {
+      name: 'Brand',
+      imageSrc: '/generated/image-a-street-scene-in-an-urban-environment-w.webp'
+    },
+    {
+      name: 'Website',
+      imageSrc: '/generated/image-a-badge-lanyard-lying-on-a-simple-surfac.webp'
+    },
+    {
+      name: 'Logo',
+      imageSrc: '/generated/image-a-flat-lay-of-a-startup-hoodie-on-a-whit.webp'
+    },
+    {
+      name: 'Deck',
+      imageSrc: '/generated/image-monitor-screen-with-modern-pitch-deck-sl.webp'
+    },
+    {
+      name: 'Merch',
+      imageSrc: '/generated/image-startup-hoodie-mockup-flat-lay-on-white-.webp'
+    }
+  ]}
     {
       name: 'Maya Patel',
       position: 'Founder, Early Stage AI Startup',
