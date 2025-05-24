@@ -105,3 +105,16 @@ It should ALWAYS have between 3 and 5 customers!
 		{/each}
 	</div>
 </div>
+
+<!-- Prompt Input Bar: ChatGPT-style below customer cards -->
+<div class="flex items-center gap-2 px-4 py-4 max-w-xl mx-auto w-full mt-6 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-full shadow-sm">
+  <input
+    type="text"
+    placeholder="Describe your startup and get a site, deck, or ad — instantly."
+    class="flex-grow border-none bg-transparent outline-none px-3 py-2 text-base text-foreground placeholder:text-gray-400 rounded-full"
+    aria-label="Describe your startup prompt"
+  />
+  <Button variant="primary" size="md">
+    Generate
+  </Button>
+</div>
