@@ -116,10 +116,8 @@ It should ALWAYS have between 3 and 5 customers!
     style="order:0;"
   />
   <Button variant="secondary" size="md" iconOnly={true} class="rounded-full !bg-gray-100 !border-none !text-gray-800 hover:!bg-gray-200 p-2 w-10 h-10">
-    {() => (
-      <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <path d="M5 10h10M12 7l3 3-3 3" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-    )}
+    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M5 10h10M12 7l3 3-3 3" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
   </Button>
 </div>
