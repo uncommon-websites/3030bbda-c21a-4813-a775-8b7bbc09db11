@@ -6,7 +6,6 @@
 	import Testimonials from "$lib/components/layout/Testimonials.svelte";
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
-	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
@@ -61,15 +60,6 @@
       imageSrc: '/generated/image-a-female-marketer-in-an-open-workspace-p.webp'
     }
   ]}
-/>
-<LogoScroller
-	label="Trusted by industry leaders"
-	logoUrls={[
-		"https://logo.clearbit.com/figma.com",
-		"https://logo.clearbit.com/pitch.com",
-		"https://logo.clearbit.com/linear.app",
-		"https://logo.clearbit.com/zapier.com"
-	]}
 />
 
 <Summary
