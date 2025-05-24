@@ -34,8 +34,7 @@
     {
       name: 'Merch',
       imageSrc: '/generated/image-startup-hoodie-mockup-flat-lay-on-white-.webp'
-    }
-  ]}
+    },
     {
       name: 'Maya Patel',
       position: 'Founder, Early Stage AI Startup',
