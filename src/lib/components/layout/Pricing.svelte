@@ -35,139 +35,142 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "Everything you need to build your company",
+		subtitle = "Built for founders who want to move faster",
+		tierNames = ["Launch", "Growth", "Scale"],
 		features = [
-			{
-				name: "Projects",
-				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Team members",
-				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Storage",
-				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "API access",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Custom domains",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Analytics",
-				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
-				}
-			},
-			{
-				name: "Support response time",
-				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
-				}
-			},
-			{
-				name: "Dedicated account manager",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: true
-				}
-			},
-			{
-				name: "SLA",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
-				}
-			}
-		],
+	{
+		name: "AI website launches",
+		tiers: {
+			Launch: "1 included",
+			Growth: "Up to 3 versions",
+			Scale: "Unlimited"
+		}
+	},
+	{
+		name: "Pitch deck (PDF export)",
+		tiers: {
+			Launch: true,
+			Growth: true,
+			Scale: "Deck + team workflow"
+		}
+	},
+	{
+		name: "Brand & messaging generation",
+		tiers: {
+			Launch: "1 brand style",
+			Growth: "Multiple variations",
+			Scale: "Custom brand system"
+		}
+	},
+	{
+		name: "Team collaboration",
+		tiers: {
+			Launch: "Single user",
+			Growth: "Multi-user access",
+			Scale: "Advanced with version control"
+		}
+	},
+	{
+		name: "Investor CRM",
+		tiers: {
+			Launch: false,
+			Growth: "Basic tracker",
+			Scale: "Full CRM"
+		}
+	},
+	{
+		name: "Analytics",
+		tiers: {
+			Launch: "Traffic insights",
+			Growth: "Traffic + performance",
+			Scale: "Full dashboard"
+		}
+	},
+	{
+		name: "Support response time",
+		tiers: {
+			Launch: "Email: 48hr",
+			Growth: "Chat: 24hr",
+			Scale: "Dedicated: same-day"
+		}
+	},
+	{
+		name: "Priority support",
+		tiers: {
+			Launch: false,
+			Growth: false,
+			Scale: "Account manager + Slack"
+		}
+	},
+	{
+		name: "Custom integrations",
+		tiers: {
+			Launch: false,
+			Growth: false,
+			Scale: "Custom integrations"
+		}
+	},
+	{
+		name: "Unlimited updates",
+		tiers: {
+			Launch: false,
+			Growth: true,
+			Scale: true
+		}
+	}
+],
 		tiers = [
-			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
-				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
-				}
-			},
-			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
-				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
-				},
-				highlight: true
-			},
-			{
-				name: "Enterprise",
-				monthlyPrice: null,
-				yearlyPrice: null,
-				description: "For large organizations with specific needs",
-				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
-				],
-				cta: {
-					label: "Contact sales",
-					href: "/contact"
-				}
+		{
+			name: "Launch",
+			monthlyPrice: 49,
+			yearlyPrice: 39, // ~20% savings
+			description: "For solo founders validating their idea.",
+			features: [
+				"Instant AI website generator",
+				"Custom branding and messaging",
+				"Live hosted landing page",
+				"Unlimited updates"
+			],
+			cta: {
+				label: "Start with Launch",
+				href: "/signup?plan=launch"
 			}
-		]
+		},
+		{
+			name: "Growth",
+			monthlyPrice: 99,
+			yearlyPrice: 79, // ~20% savings
+			description: "For small teams ready to raise, hire and grow.",
+			features: [
+				"Pitch deck builder (PDF export)",
+				"Team and careers pages",
+				"Social and ad creative",
+				"Investor CRM basics"
+			],
+			cta: {
+				label: "Start with Growth",
+				href: "/signup?plan=growth"
+			},
+			highlight: true
+		},
+		{
+			name: "Scale",
+			monthlyPrice: null,
+			yearlyPrice: null,
+			description: "For startups ready to scale and customize.",
+			features: [
+				"Multi-member collaboration",
+				"Advanced analytics dashboard",
+				"Unlimited workspaces",
+				"Priority support & integrations"
+			],
+			cta: {
+				label: "Talk to sales",
+				href: "/contact"
+			}
+		}
+	]
 	}: {
 		title?: string;
 		subtitle?: string;

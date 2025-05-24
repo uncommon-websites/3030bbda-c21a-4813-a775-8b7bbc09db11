@@ -53,107 +53,113 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Uncommon is your AI designer for company building. Instantly create websites, decks, ads, and more—so you can sell, hire, and raise, all in one tool. Move from idea to traction faster."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Kira Amano",
+			position: "Founder & CEO",
+			company: "Everfine",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"We created our whole deck in a single afternoon. It saved us over 10 hours and helped land meetings with 5 investors in one week.",
+			image: "/generated/image-a-confident-female-founder-sits-in-a-vib.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Dorian Chae",
+			position: "CFO",
+			company: "Deltaix",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Uncommon helped reduce our design expenses by 40%. No more wasting cycles updating decks and websites — it's auto-synced and always ready.",
+			image: "/generated/image-in-a-modern-meeting-room-with-large-wind.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Ari Mooren",
+			position: "Marketing Lead",
+			company: "Setlight",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"I launched three campaign pages in under a day. Normally would have taken design and dev a week. Game-changer for go-to-market speed.",
+			image: "/generated/image-a-nonbinary-marketing-lead-is-immersed-i.webp"
 		}
 	]}
+/>
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
-	features={[
-		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
-		},
-		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
-		},
-		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
-		}
-	]}
+  title="Everything you need to build your company"
+  subtitle="Six ways Uncommon helps you win"
+  features={[
+    {
+      title: "Websites that convert",
+      description: "Launch beautiful, conversion-focused sites with founder-level speed—no agencies, no templates."
+    },
+    {
+      title: "Pitch decks that raise",
+      description: "Get compelling, investor-ready decks crafted by a tool that knows what works."
+    },
+    {
+      title: "Job pages for top hires",
+      description: "Attract the talent you want with career pages designed to sell your mission."
+    },
+    {
+      title: "Ad creatives on demand",
+      description: "Generate launching-ready ads and social visuals that look polished and feel on-brand."
+    },
+    {
+      title: "All-in-one platform",
+      description: "Uncommon unifies your website, deck, hiring, and marketing—so you ship faster and fix less."
+    },
+    {
+      title: "Gets smarter as you grow",
+      description: "The more you build, the better your next project gets—like hiring a team that learns your business."
+    }
+  ]}
 />
 
 <UseCases
-	generating
-	title="Use Cases"
-	subtitle="Real-world applications for your business needs"
-	useCases={[
-		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-			link: {
-				href: "/use-cases/workflows",
-				label: "Learn more"
-			}
-		},
-		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
-			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
-			}
-		},
-		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
-			}
-		}
-	]}
+  title="Use Cases"
+  subtitle="Real-world ways founders use Uncommon"
+  useCases={[
+    {
+      title: "Raise your next round",
+      description: "AI builds investor decks, landing pages, and messaging to help you fundraise faster.",
+      image: "/generated/image-a-group-of-startup-founders-engaged-in-a.webp",
+      link: {
+        href: "/use-cases/fundraising",
+        label: "Learn more"
+      }
+    },
+    {
+      title: "Hire standout talent",
+      description: "Instantly create branded job pages and content that attract the right candidates.",
+      image: "/generated/image-a-diverse-team-of-professionals-collabor.webp",
+      link: {
+        href: "/use-cases/hiring",
+        label: "Learn more"
+      }
+    },
+    {
+      title: "Launch your next product",
+      description: "Get ad-ready landing pages and marketing so your next launch makes noise, not crickets.",
+      image: "/generated/image-a-small-group-of-energetic-individuals-g.webp",
+      link: {
+        href: "/use-cases/launching",
+        label: "Learn more"
+      }
+    }
+  ]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="Startups move fast. Your design team should too."
+  subtitle="Uncommon builds your website, pitch deck, and ads — all from one prompt."
+  description="AI-powered design that helps you sell, hire, and raise. Used by Sequoia-backed teams like Squint and nsave."
+  imageSrc="/generated/image-a-joyful-startup-founder-casually-dresse.webp"
+  callsToAction={[
+    { href: '/get-started', label: 'Try it free', variant: 'primary' },
+    { href: '/contact', label: 'Talk to sales', variant: 'secondary' }
+  ]}
+/>

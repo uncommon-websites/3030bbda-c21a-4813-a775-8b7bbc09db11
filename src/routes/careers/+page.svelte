@@ -121,78 +121,82 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Sofia Alvarez",
+    position: "Operations Coordinator",
+    company: "Operations Team",
+    quote: "As a Latina in tech, it means so much to feel not just heard but truly seen. There’s real mutual respect here—the kind where every idea gets aired, and everyone's got your back when it counts.",
+    image: "/generated/image-a-latina-woman-operations-coordinator-sm.webp"
+  },
+  {
+    name: "Michael Chen",
+    position: "Senior Developer",
+    company: "Engineering Team",
+    quote: "Uncommon is the place to push your skills and actually see progress every month. The challenges keep things exciting and there’s always space to learn, experiment, and grow as an engineer.",
+    image: "/generated/image-an-east-asian-man-software-developer-smi.webp"
+  },
+  {
+    name: "Priya Sharma",
+    position: "Product Designer",
+    company: "Design Team",
+    quote: "I love that ideas win here, not titles. It’s a culture where collaboration across disciplines sparks creativity and where I get the trust and freedom to build things that really matter.",
+    image: "/generated/image-a-south-asian-woman-product-designer-exu.webp"
+  }
+];
 
 	const processSteps = [
-		{
-			step: 1,
-			title: "Apply",
-			description:
-				"Submit your application through our careers portal with your resume and portfolio."
-		},
-		{
-			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
-		},
-		{
-			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
-		}
-	];
+  {
+    step: 1,
+    title: "Submit your application",
+    description: "Tell us how you want to contribute and share links to your best work. No long cover letter needed."
+  },
+  {
+    step: 2,
+    title: "Intro call",
+    description: "Short chat to get to know each other and answer your questions."
+  },
+  {
+    step: 3,
+    title: "Work sample or paid challenge",
+    description: "Collaborate on a practical assignment to experience how we solve problems together."
+  },
+  {
+    step: 4,
+    title: "Final interview with the founder",
+    description: "Focused discussion on your strengths and how you work best."
+  },
+  {
+    step: 5,
+    title: "Offer and onboarding",
+    description: "Simple, fast process. If we match, you’ll start building with us right away."
+  }
+];
 
 	const values = [
-		{
-			icon: IconHeart,
-			title: "Passion",
-			description: "We're driven by a shared passion for innovation and excellence."
-		},
-		{
-			icon: IconUsers,
-			title: "Collaboration",
-			description: "We believe in teamwork and collaboration to achieve great things."
-		},
-		{
-			icon: IconGlobe,
-			title: "Global Impact",
-			description: "We're committed to making a positive impact on the world."
-		}
-	];
+	{
+		icon: IconHeart,
+		title: "Founder empathy",
+		description: "We obsess over making Uncommon intuitive and frustration-free for real builders."
+	},
+	{
+		icon: IconUsers,
+		title: "Bias for action",
+		description: "Move fast, experiment, and ship. Clear priorities, real results."
+	},
+	{
+		icon: IconGlobe,
+		title: "Low ego, high standards",
+		description: "Build with compassion and give direct, honest feedback. We keep things simple and drama-free."
+	}
+];
 </script>
 
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
+	title="Build tools founders rely on"
+	subtitle="Join the team shaping how startups launch, grow, and win"
+	imageSrc="/generated/image-a-modern-tech-startup-office-with-a-dive.webp"
 />
 
 <!-- Why Join Us Section -->

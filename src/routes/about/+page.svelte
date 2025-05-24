@@ -10,34 +10,45 @@
 
 	// Constants
 	const values = [
-		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
-		},
-		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
-		},
-		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
-		}
-	];
+  {
+    title: "Builder obsession",
+    description: "Created for founders who care about speed and substance. We cut the busywork so you can focus on real progress."
+  },
+  {
+    title: "Design that works",
+    description: "Looking sharp isn’t optional. Every asset is crafted to help you stand out, not blend in."
+  },
+  {
+    title: "Clarity, not clutter",
+    description: "No fluff, no filler. Every feature exists to help you sell, hire or raise."
+  },
+  {
+    title: "Move at founder speed",
+    description: "Uncommon is fast because opportunity doesn’t wait. Ship in days, not weeks."
+  },
+  {
+    title: "Proof, not promises",
+    description: "Every file, deck or site is judged by outcomes—investors, hires, customers. We back up the hype."
+  },
+  {
+    title: "Team of builders, for builders",
+    description: "Founded by a builder, for builders. We know what great looks like—and help you show it." 
+  }
+];
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://source.unsplash.com/random/?people"
+	title="AI design, built for founding teams"
+	subtitle="Websites, decks, and ads to sell, hire, and raise—done right, from day one"
+	imageSrc="/generated/image-a-modern-startup-team-collaborating-in-a.webp"
 />
 
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"I started Uncommon because I was tired of wasting time on things that didn’t move the needle. As a founder myself, I kept running into the same problem: starting from scratch on a deck, a site, a campaign — juggling freelancers or trying to write copy late at night just to get the story straight. I wanted something fast, smart, and good. So I built it.",
+		"Uncommon is an AI-powered company building tool that helps founders speak clearly, show up professionally, and move fast. Just tell it what you’re working on, and get a website, pitch deck, ads — everything — built to help you sell, hire, or raise. No templates. No guessing. Just a story that works.",
+		"It’s already trusted by teams like Squint and nsave — who both raised from Sequoia — to look sharp, sound right, and stay focused on building. I'm Thilo Konzok, and I built Uncommon for founders who'd rather spend time making progress than formatting slides. If that’s you, we’d love to help."
 	]}
 />
 
@@ -45,58 +56,23 @@
 <Culture {values} />
 
 <!-- StakeholderGrid Section -->
-<StakeholderGrid
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		}
-	]}
-/>
+<section style="margin: 4rem 0;">
+	<h2 class="text-3xl font-semibold mb-2">Meet the founder</h2>
+	<p class="mb-6">Uncommon is built and led by Thilo Konzok — founder, designer and product thinker.</p>
+	<img src="/generated/image-a-portrait-headshot-of-a-confident-europ.webp" alt="Photo of Thilo Konzok" style="max-width:280px; border-radius:16px; margin-bottom:16px;" />
+	<p class="mb-4">Before creating Uncommon, Thilo was the co-founder and CEO of Yohana Europe (acquired), and previously led product teams in B2B software. With a background rooted in design and strategy, he’s spent years helping early-stage founders go from idea to traction.</p>
+	<p class="mb-4">He started Uncommon to give startup teams the momentum and polish usually reserved for companies with big budgets and bigger headcounts. The tool cuts out the design and messaging guesswork so founders can show up looking ready — to customers, candidates, and investors — from day one.</p>
+	<p class="mb-4">Today, Thilo is the sole builder behind Uncommon. Every decision, product improvement and conversation with early users goes directly through him. If you're using Uncommon, you're working with the founder.</p>
+	<p class="mb-2">Used by funded teams like Squint and nsave to build standout brands — and raise from Sequoia.</p>
+</section>
 
-<StakeholderGrid
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
-		}
-	]}
-/>
+<!-- Investors section intentionally removed as there are no formal institutional investors for Uncommon. -->
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+  title="Start looking like a company that wins"
+  subtitle="Your first website, deck, ads, and more — done in days"
+  description="Uncommon is the only AI designer built to help founders sell, hire, and raise — fast. Used by Squint and nsave, both backed by Sequoia. Try it free."
+  callsToAction={[{ href: '/signup', label: 'Start building free', variant: 'primary' }, { href: '/contact', label: 'Book a demo', variant: 'secondary' }]}
+  imageSrc="/generated/image-customer-founder-smiling-indoors-3-4.webp"
 />
