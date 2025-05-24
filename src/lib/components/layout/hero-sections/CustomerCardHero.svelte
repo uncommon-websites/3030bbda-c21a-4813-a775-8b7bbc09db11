@@ -110,11 +110,16 @@ It should ALWAYS have between 3 and 5 customers!
 <div class="flex items-center gap-2 px-4 py-4 max-w-xl mx-auto w-full mt-6 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-full shadow-sm">
   <input
     type="text"
-    placeholder="Describe your startup and get a site, deck, or ad — instantly."
+    placeholder="What does your company do? Describe your startup to instantly create a website, deck, or ad."
     class="flex-grow border-none bg-transparent outline-none px-3 py-2 text-base text-foreground placeholder:text-gray-400 rounded-full"
     aria-label="Describe your startup prompt"
+    style="order:0;"
   />
-  <Button variant="primary" size="md">
-    Generate
+  <Button variant="secondary" size="md" iconOnly={true} class="rounded-full !bg-gray-100 !border-none !text-gray-800 hover:!bg-gray-200 p-2 w-10 h-10">
+    {() => (
+      <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M5 10h10M12 7l3 3-3 3" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    )}
   </Button>
 </div>
