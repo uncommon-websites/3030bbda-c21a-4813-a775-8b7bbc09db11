@@ -107,7 +107,7 @@ It should ALWAYS have between 3 and 5 customers!
 </div>
 
 <!-- Prompt Input Bar: ChatGPT-style below customer cards -->
-<div class="flex items-center gap-2 px-4 py-4 max-w-xl mx-auto w-full mt-6 bg-white dark:bg-gray-900 border border-gray-200/50 dark:border-gray-800/50 rounded-full shadow-sm">
+<div class="flex items-center gap-2 px-4 py-4 max-w-xl mx-auto w-full mt-16 bg-white dark:bg-gray-900 border border-gray-200/50 dark:border-gray-800/50 rounded-full shadow-sm">
   <input
     type="text"
     placeholder="what does your company do"
