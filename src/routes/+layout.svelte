@@ -60,7 +60,7 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="description" content={data.meta.description} />
-	<meta name="author" content={data.meta.companyName} />
+	<meta name="author" content={CONFIG.companyName} />
 	<meta property="og:title" content={data.meta.title} />
 	<meta property="og:description" content={data.meta.description} />
 	<meta property="og:type" content="website" />

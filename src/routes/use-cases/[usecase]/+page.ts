@@ -36,6 +36,17 @@ type UseCase = {
 			icon: string;
 		}>;
 	};
+	cta: {
+		title: string;
+		subtitle: string;
+		imageSrc: string;
+		description: string;
+		callsToAction: Array<{
+			href: string;
+			label: string;
+			variant: string;
+		}>;
+	};
 };
 
 // Constants
@@ -350,8 +361,8 @@ export const load: PageLoad = async ({ params }) => {
 	const { usecase } = params;
 
 	if (!usecase || !(usecase in useCases)) {
-		return {};
+		return useCases.healthcare;
 	}
 
-	return useCases[usecase as keyof typeof useCases] ?? healthcare;
+	return useCases[usecase as keyof typeof useCases] ?? useCases.healthcare;
 };
