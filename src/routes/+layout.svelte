@@ -22,6 +22,9 @@
 	// Props
 	let { data, children } = $props();
 
+	// Check if we're on the home page
+	$: isHomePage = $page.route.id === '/';
+
 	// onMount(() => {
 	// 	if (!browser) return;
 	// 	const enterContainers = document.querySelectorAll("[data-enter-container]");
@@ -106,5 +109,7 @@
 
 	{@render children()}
 
-	<Footer />
+	{#if !isHomePage}
+		<Footer />
+	{/if}
 </div>
