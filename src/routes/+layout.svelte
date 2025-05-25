@@ -23,7 +23,7 @@
 	let { data, children } = $props();
 
 	// Check if we're on the home page
-	$: isHomePage = $page.route.id === '/';
+	let isHomePage = $derived($page.route.id === '/');
 
 	// onMount(() => {
 	// 	if (!browser) return;
